@@ -30,7 +30,7 @@ const questions = [
       ]
     },
     {
-      question: "Which place would Aishwarya likes in bed?",
+      question: "What do Aishwarya likes in bed?",
       answers: [
         { text: "bdsm", correct: true },
         { text: " simple ", correct: false },
@@ -48,7 +48,50 @@ const questions = [
         { text: "legs", correct: false }
 
       ]
-    }
+    },
+    {
+      question: "Which is Aishwarya 's favourite person?",
+      answers: [
+        { text: "vihaan", correct: false },
+        { text: "dad", correct: true },
+        { text: "ayush", correct: false },
+        { text: "chiraag", correct: false }
+
+      ]
+    },
+    {
+      question: "What is Aishwarya?",
+      answers: [
+        { text: "randi", correct: false },
+        { text: "bitch", correct: false },
+        { text: "boy", correct: false },
+        { text: "Wondergirl", correct: true }
+
+      ]
+    },
+    {
+      question: "What is Aishwaryas favourite color?",
+      answers: [
+        { text: "red", correct: false },
+        { text: "blue", correct: false },
+        { text: "green", correct: false },
+        { text: "black", correct: true }
+
+      ]
+    },
+    {
+      question: "What is Aishwarya ?",
+      answers: [
+        { text: "slave", correct: true },
+        { text: "girl", correct: false },
+        { text: "hot", correct: false },
+        { text: "machine", correct: false}
+
+      ]
+    },
+
+
+
   ];
   
   const questionContainer = document.getElementById("question-container");

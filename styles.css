@@ -1,45 +1,19 @@
 body {
-    margin: 0;
-    background: linear-gradient(to right, #ff99cc, #ff66b2);
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    color: #fff;
-    overflow: hidden;
-  }
-  
-  .quiz-container {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 30px;
-    border-radius: 10px;
-    text-align: center;
-    max-width: 500px;
-  }
-  
-  button {
-    margin: 10px;
-    padding: 12px 20px;
-    background: #ff4081;
-    border: none;
-    color: white;
-    font-size: 1em;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-  
-  button:hover {
-    background: #e91e63;
-  }
-  
-  h2 {
-    margin-top: 20px;
-    color: #ffd700;
-  }
-  
-  audio {
-    display: none;
-  }
-  
+  margin: 0;
+  background: url('https://clipartmag.com/images/happy-birthday-png-32.png') center/cover no-repeat fixed;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+  overflow: hidden;
+}
+
+.quiz-container {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 100px;
+  text-align: center;
+  max-width: 500px;
+}
